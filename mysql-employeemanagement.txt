@@ -1,0 +1,10 @@
+//MYSQL workbench
+
+create database`employeemanagement`;
+show databases;
+use `employeemanagement`;
+show tables;
+
+select * from employee;
+
+INSERT INTO EMPLOYEE(ID, EMAIL, EMPLOYEE_CODE, JOB_TITLE, NAME, PHONE) VALUES('1','user@gmail.com', '001', 'Java Developer', 'Ram','9860485578');
